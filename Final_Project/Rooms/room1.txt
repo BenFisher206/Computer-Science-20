@@ -1,0 +1,45 @@
+*Cave Entrance Background*
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill rock hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill rock rock rock rock rock hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill rock spawn2 rockdoorleft2 rock hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill rock sand rock rock rock hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill rock rockCBR sand rockCBL rock hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill sand sand rock sand sand sand rock sand water hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill sand sand sand sand rock sand sand sand water hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill sand sand sand rock rock rock sand sand waterCBL hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill sand sand sand sand rock sand sand sand sand hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill sand sand sand sand sand sand sand sand sand hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill sand sand sand sand sand sand sand sand sand hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hillCTR sand hillCTL hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill sand hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill sand hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill spawn0 hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hilldoorup0 hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+
+*Cave Entrance Monster Spawnpoints*
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none moblin none none none moblin none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none

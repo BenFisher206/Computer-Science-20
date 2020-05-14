@@ -1,0 +1,35 @@
+
+Priorities
+--------------------------------
+need to create more rooms - Last
+
+Completed
+---------------------------------
+have a game over screen and a restart button - Done
+implement spritesheets - Done
+add projectiles - Done
+implement buffer for monster collision - Done
+implement blinking when player takes damage - Done
+add pit tiles - Done
+add hitpoints and an inventory menu (requires a new bottom canvas) - Done
+implement sword detection - Done
+have monsters despawn once room is left - Done
+have the monster spawn points given by the txt file for the room - Done
+add monsters and give them collision detection - Done
+implement door functionality - Done
+add a buffer between what is drawn on screen and actual collision detection to allow for ease of movement - Done
+add player and give them collision detection - Done
+add different types of doors - Done
+add corners for every type of tile (other than doors) - Done
+add more tiles (water, rocks, Doors, Spawnpoints) - Done
+implement txt files for every room - Done
+add corners for hills - Done
+create background with hills and sand - Done
+
+
+Optional (time dependant)
+---------------------------------
+add bow - (if time)
+add ability to darken canvas (used for caves etc.) - (if time)
+add sword cave - (if time)
+add obstacles and give them collision detection - (if time)

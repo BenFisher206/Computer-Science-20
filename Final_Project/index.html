@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Legend of Zelda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Legend Of Zelda</h1>
+    <canvas id="inventoryCanvas"></canvas>
+    <canvas id="backgroundCanvas"></canvas>
+    <canvas id="playerCanvas"></canvas>
+    <canvas id="monsterCanvas"></canvas>
+    <canvas id="projectileCanvas"></canvas>
+    <canvas id="gameOver"></canvas>
+    <p id='retry'></p>
+
+    <!-- Images -->
+    <!-- Hills -->
+    <img class="sprite" id='hill' src='Images/Terrain/Hills/hillSquare.png'>
+    <img class="sprite" id='hillCornerTL' src='Images/Terrain/Hills/hillCornerTL.png'>
+    <img class="sprite" id='hillCornerTR' src='Images/Terrain/Hills/hillCornerTR.png'>
+    <img class="sprite" id='hillCornerBL' src='Images/Terrain/Hills/hillCornerBL.png'>
+    <img class="sprite" id='hillCornerBR' src='Images/Terrain/Hills/hillCornerBR.png'>
+    
+    <!-- Doors -->
+    <img class="sprite" id='hilldoordown' src='Images/Terrain/Hills/hillDoorDown.png'>
+    <img class="sprite" id='hilldoorup' src='Images/Terrain/Hills/hillDoorUp.png'>
+    <img class="sprite" id='hilldoorright' src='Images/Terrain/Hills/hillDoorRight.png'>
+    <img class="sprite" id='hilldoorleft' src='Images/Terrain/Hills/hillDoorLeft.png'>
+    <img class="sprite" id='rockdoordown' src='Images/Terrain/Rocks/rockDoorDown.png'>
+    <img class="sprite" id='rockdoorup' src='Images/Terrain/Rocks/rockDoorUp.png'>
+    <img class="sprite" id='rockdoorleft' src='Images/Terrain/Rocks/rockDoorLeft.png'>
+    <img class="sprite" id='rockdoorright' src='Images/Terrain/Rocks/rockDoorRight.png'>
+
+    <!-- Rocks -->
+    <img class="sprite" id='rock' src='Images/Terrain/Rocks/rockSquare.png'>
+    <img class="sprite" id='rockCornerTL' src='Images/Terrain/Rocks/rockCornerTL.png'>
+    <img class="sprite" id='rockCornerTR' src='Images/Terrain/Rocks/rockCornerTR.png'>
+    <img class="sprite" id='rockCornerBL' src='Images/Terrain/Rocks/rockCornerBL.png'>
+    <img class="sprite" id='rockCornerBR' src='Images/Terrain/Rocks/rockCornerBR.png'>
+
+    <!-- Water -->
+    <img class="sprite" id='water' src='Images/Terrain/Water/waterSquare.png'>
+    <img class="sprite" id='waterCornerTL' src='Images/Terrain/Water/waterCornerTL.png'>
+    <img class="sprite" id='waterCornerTR' src='Images/Terrain/Water/waterCornerTR.png'>
+    <img class="sprite" id='waterCornerBL' src='Images/Terrain/Water/waterCornerBL.png'>
+    <img class="sprite" id='waterCornerBR' src='Images/Terrain/Water/waterCornerBR.png'>
+    
+    <!-- Monsters -->
+    <img class="sprite" id='octorok' src='Images/Monsters/octorokSprite.png'>
+    <img class="sprite" id='moblin' src='Images/Monsters/moblinSprite.png'>
+    <img class="sprite" id='pellets' src='Images/Monsters/pellets.png'>
+  
+
+    <!-- Player Spritesheet -->
+    <img class="sprite" id='playerSprite' src='Images/Player/link_spriteSheet.png'>
+    <img class="sprite" id='blank' src='Images/Player/blank.png'>
+    <img class="sprite" id='heart' src='Images/Player/heart.png'>
+    <img class="sprite" id='sword' src='Images/Player/sword.png'>
+
+  <!-- Load JavaScript -->
+  <script src="JavaScript/Background.js"></script>
+  <script src="JavaScript/player.js"></script>
+  <script src="JavaScript/monster.js"></script>
+  <script src="JavaScript/inventory.js"></script>
+  <script src="JavaScript/projectile.js"></script>
+  <script src="JavaScript/main.js"></script>
+</body>
+
+</html>

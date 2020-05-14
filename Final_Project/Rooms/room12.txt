@@ -1,0 +1,45 @@
+*Lagoon Room*
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand hill hill
+hill hill hill sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand hill hill
+hill hill hill sand sand sand sand sand sand waterCTL water water water water water waterCTR sand sand sand sand sand sand sand sand sand hill hill
+hill hilldoorright3 spawn3 sand sand sand sand sand water water water water water water water water waterCTR sand sand sand sand sand sand sand sand hill hill
+hill hill hill sand sand sand sand sand sand water water water water water water water water waterCTR sand sand sand sand sand sand sand hill hill
+hill hill hill sand sand sand sand sand water water water water water water water water water water sand sand sand sand sand sand sand hill hill
+hill hill hill sand sand sand sand sand sand water water water sand water sand water water water water sand sand sand sand sand sand hill hill
+hill hill hill sand sand sand sand sand water water water water water water water water water water sand sand sand sand sand sand sand hill hill
+hill hill hill sand sand sand sand sand sand water water water water water water water water water sand sand sand sand sand sand sand hill hill
+hill hill hill sand sand sand sand sand sand waterCBL water water water water water water waterCBR sand sand sand sand sand sand sand sand hill hill
+hill hill hill sand sand sand sand sand sand sand waterCBL water water water water waterCBR sand sand sand sand sand sand sand sand sand hill hill
+hill hill hill sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand hill hill
+hill hill hill sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand hill hill
+hill hill hill sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand sand hill hill
+hill hill hill hill hill hill hill hill hill hillCTR spawn10 hillCTL hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hilldoorup10 hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+ 
+*Lagoon Monster Spawnpoints*
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none moblin none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none moblin none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none octorok none octorok none none none none none none moblin none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none moblin none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none moblin none none none none none none none none moblin none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none

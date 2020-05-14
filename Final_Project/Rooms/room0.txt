@@ -1,0 +1,46 @@
+*Spawn Room*
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hilldoordown1 hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill sand spawn1 sand hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill sand sand sand hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hillCTR sand hillCTL hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hillCBR sand hillCBL hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill sand sand sand sand sand sand sand sand sand hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill sand sand sand sand sand sand sand pit sand hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill sand sand sand sand spawn sand sand sand sand hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill sand sand sand sand sand sand sand sand sand hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill sand sand sand sand sand sand sand sand sand hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill sand sand sand waterCTL water waterCTR sand sand pit hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill hill
+
+*First Room Monster Spawnpoints*
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none octorok none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none octorok none none none none none octorok none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+none none none none none none none none none none none none none none none none none none none none none none none none none none none
+

@@ -1,0 +1,72 @@
+Background Array Numerical Values:
+
+    Classes
+        0 - ground
+        1 - hill
+        2 - door
+        3 - N/A
+        4 - rock
+        5 - water
+        6 - pit
+
+
+
+    Types
+
+        Non-terrain Tiles
+            none - square tile
+            .1 - corner tile
+                1 - faces down left
+                2 - faces down right
+                3 - faces up left
+                4 - faces up right
+
+
+
+        Terrain Tiles  
+            none - sand
+            .1 - dirt
+            .2 - pebbles
+            .3 - path
+            .9## - doormat for the door leading to ## room
+
+
+
+        Door
+            .#xx - # = the type of door and the xx is the room that the door leads to
+
+
+
+
+
+
+
+Text Document map Values:
+
+    Terrain Tile Values
+        
+        "sand" - places a sand tile
+
+        CLASSdoorDIRECTION# - places a door tile with a border of type CLASS and the entrance facing DIRECTION that connects to room #
+        spawn# - places down a doormat that link spawns on when he enters through the door leading to room 
+
+
+
+    Non-Terrain Values
+
+        "hill" - places down a square hill tile
+        "pit" - places downa  pit tile that link falls through if walked on
+        "rock" places down a rock tile
+        "water" - places down a water tile
+
+
+
+    Add-on Values
+
+        "C##" - states that the tile will be a corner tile with the corner facing the ## direction
+            directions that can be used:
+                TL - Top-Left
+                TR - Top-Right
+                BL - Bottom-Left
+                BR - Bottom-Right
+

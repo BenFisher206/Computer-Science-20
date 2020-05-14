@@ -1,0 +1,17 @@
+OVERWORLD
+    Cave Entrance
+        Spawn       
+
+
+Cave
+
+
+
+
+  Quicksand 7 - DustBowl 8  - Marsh 9
+    |           |               |
+    |       Sand Trap 4         |
+    |           |               |
+    |       CrossRoads 2 - Waterworks 3  - Lagoon 12
+    |           |                             |
+  Crater 11 - Pitfall 5  - Connector 6 - Waterway 10
