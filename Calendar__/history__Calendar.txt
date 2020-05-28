@@ -1,0 +1,133 @@
+
+	LINUX bash compiler command - gcc time__.c -o time__
+	LINUX bash execution command - ./time__ .
+	LINUX bash execution command - ./time__ Test
+	LINUX bash clear console screen command - clear
+
+*************************************************************************************************************************************************************************
+					Operating			Original File			New File				Original File		
+	Software	Related		System		Original	Sub-Directory			Sub-Directory				Sub-Directory	Release	
+Date	Filename	Software	O.S.		Developer	Location			Location				Location	Date
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Calendar	__		DOS		BSF		__		C:\__Users\Ben\High_School\Fisher-Ben_CS20\C++\Calendar		__		__
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+MMDDYY	----- Daily Review -----	...###..."daily_summary_comment_here"...###...
+	-----
+	----- Tech Data -----	Calendar	__	DOS	BSF
+	`````
+
+MMDDYY	----- Daily Review -----	...###..."daily_summary_comment_here"...###...
+	-----
+	----- Tech Data -----	Calendar	__	LINUX	BSF
+	`````
+
+MMDDYY	----- Daily Review -----	...###..."daily_summary_comment_here"...###...
+	-----
+	----- Tech Data -----	Calendar	__	LINUX & DOS	BSF
+	`````
+
+**************************************************************************************************************************************************************************************************************************
+KEEP	BSF - (MMDDYY) "this_is_an_example_description"
+KEEP	BSF - (MMDDYY) this is an example description - (done MMDDYY - BSF)   <=   cut and paste this issue to the date section after it has been corrected and successfully tested
+
+
+To Do:
+
+ Rank	Program		User	To Do:
+-----	-------		----	------
+
+1	Calendar		BSF	Create a Calendar with user defined data and patterns
+				
+
+**************************************************************************************************************************************************************************************************************************
+**************************************************************************************************************************************************************************************************************************
+Please document each of the following point for each periodic revision:
+	Comment on programming change(s):
+	Issue(s) Identified and/or Resolved
+	Thought and Intentions for the programming or revision(s):
+	Outstanding Issues: (document on the day of identification, as well as in the "To Do" section) - format = "Identifying PROGRAMMERS INITIALS  -  (mmddyy) description
+		When the issue is solved add the following format to the end of the description and then copy and paste into the date section when it was solved - (Done - MMDDYY - solution PROGRAMMERS INITIALS)
+**************************************************************************************************************************************************************************************************************************
+**************************************************************************************************************************************************************************************************************************
+
+052720	----- Daily Review -----	finished implementing static pages into Calendar_Main.html
+	-----
+	----- Tech Data -----	Calendar	__	DOS	BSF
+	`````
+	finished implementing static pages into the html main page
+	the yearly, quarterly, monthly buttons lead to a function that determines what the request is and then sets the form action to open that page in the bottom frame
+	the type button will be used in the future to state what information is wanted on the page
+	the testing buttons are the original templates manually created to determine colors and font-size
+
+052620	----- Daily Review -----	fixed an error and added ability to delete static folder, began creating final HTML page
+	-----
+	----- Tech Data -----	Calendar	__	DOS	BSF
+	`````
+	fixed an error where the year was incorrect due to an incorrect variable
+	cannot use the year 1600 as the program limits itself to a minimum year of 1600 to avoid crashing and january contains the year 1599 in its first week which is not accepted
+	use system RD function to delete the folder static and all webpages in it before recreating the folder
+	this allows for the program to not worry about having leftover data from previously in the webpages
+	began implementing the static pages into the html main page
+
+
+052520	----- Daily Review -----	implemented new date config file and began coding for creating directories
+	-----
+	----- Tech Data -----	Calendar	__	LINUX & DOS	BSF
+	`````
+	implemented date file to mass produce calendars
+	the program checks if a directory under the given year exists and if it does not it creates it
+	looking into deleting the entire "static" directory which contains all the files upon call of program
+	this will make sure that all files being written have no leftover excess data
+
+052420	----- Daily Review -----	changed main program to an integer subroutine and implemented error detection
+	-----
+	----- Tech Data -----	Calendar	__	LINUX & DOS	BSF
+	`````
+	Changed the main program to be subroutine printCalendars();
+		This subroutine, given a valid start and end date, will create an HTML page consisting of a calendar
+	In the new main program: currently hard coded a double string array that can hold up to 128 dates
+	these dates will be scanned by the program and then sent to the printCalendars function
+
+
+052120	----- Daily Review -----	finished implementing shading, minor touch-ups, and processing the config file
+	-----
+	----- Tech Data -----	Calendar	__	LINUX & DOS	BSF
+	`````
+	Implemented the shading of every other month as yellow and days outside the range as grey
+	changed the yellow and grey shading to be a bit darker
+	changed the way the program prints out days to automatically print out every day in all applicable weeks while shading them
+		this resulted in the last <tr> being removed automatically
+	added another row in the selection HTML page
+	implemented ability to use config file to receive a date and information
+		this is using pointers to connect the arrays to the local functions without duplicating
+
+
+051920	----- Daily Review -----	did minor changes to directory and C program as well as changed highlighting certain cells
+	-----
+	----- Tech Data -----	Calendar	__	LINUX & DOS	BSF
+	`````
+	Decided on highlighting every other month in yellow and the cells outside the range in grey
+	implemented <div id='wrapper'> in C program along with directory changes
+	still need to remove the last <tr> from being printed in the C program
+	need to add another row in the selection section for more buttons
+
+
+051720	----- Daily Review -----	finished HTML template and beginning to work on C program to print out HTML files
+	-----
+	----- Tech Data -----	Calendar	__	LINUX & DOS	BSF
+	`````
+	Finished creating a sample calendar template with multiple different fonts and highlights
+	Now beginning to create C++ program to generate HTML files for all of the different months
+	Created simple program to create an HTML test file showing from January 1st to April 11th in a table
+	this is done through the use of fprintfs as well as the determining of January 1st weekday is found by using a Gregorian time stamp
+	the time stamp is similar to the UNIX time stamp where it tracks the number of seconds since epoch, however this epoch is Oct 15, 1582
+	this will allow me to create calendars up to October 15, 1582
+	beginning to implement config file to determine which days are important
+
+051320	----- Daily Review -----	Began creating sample HTML calendar documents
+	-----
+	----- Tech Data -----	Calendar	__	LINUX & DOS	BSF	
+	`````
+	Began creating a sample html webpage that will contain information for January 2020
+	Created tables with seamless borders and added days

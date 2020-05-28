@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head><link rel="stylesheet" href="style.css"></head>
+  <script>
+    
+  //Functions called by submit buttons to determine calendar generated
+  function generateYearly() {
+    if (document.getElementById("yearly_form").YEAR.value != "Year"){
+
+      var year = document.getElementById("yearly_form").YEAR.value;
+      var webpageName = "static\\" + year + "\\1_12_" + year + ".html";
+      document.getElementById('yearly_form').action = webpageName;
+      return true;}
+
+    else {
+      alert("Please select a year");
+      return false;
+    }
+  }
+
+  function generateMonthly() {
+
+    if (document.getElementById("monthly_form").MONTH_YEAR.value != "Year" && document.getElementById("monthly_form").MONTH.value != "Month"){
+      var year = document.getElementById("monthly_form").MONTH_YEAR.value;
+      var month_name = document.getElementById("monthly_form").MONTH.value;
+      var month = 0;
+      if(month_name == "January"){      month = 1; }
+      else if(month_name == "February"){  month = 2; }
+      else if(month_name == "March"){     month = 3; }
+      else if(month_name == "April"){     month = 4; }
+      else if(month_name == "May"){       month = 5; }
+      else if(month_name == "June"){      month = 6; }
+      else if(month_name == "July"){      month = 7; }
+      else if(month_name == "August"){    month = 8; }
+      else if(month_name == "September"){ month = 9; }
+      else if(month_name == "October"){   month = 10; }
+      else if(month_name == "November"){  month = 11; }
+      else if(month_name == "December"){  month = 12; }
+
+      var webpageName = "static\\" + year + "\\" + month + "_1_" + year + ".html";
+      document.getElementById('monthly_form').action = webpageName;
+      return true;}
+    else if (document.getElementById("monthly_form").MONTH_YEAR.value == "Year" && document.getElementById("monthly_form").MONTH.value == "Month"){
+      alert("Please select a year and a month");
+      return false;
+    }
+    else if (document.getElementById("monthly_form").MONTH_YEAR.value == "Year"){
+      alert("Please select a year");
+      return false;
+    }
+    else {
+      alert("Please select a month");
+      return false;
+    } 
+  }
+
+  function generateQuarterly() {
+
+    if (document.getElementById("quarterly_form").QUARTER_YEAR.value != "Year" && document.getElementById("quarterly_form").QUARTER_MONTH.value != "Quarter"){
+      var year = document.getElementById("quarterly_form").QUARTER_YEAR.value;
+      var month_name = document.getElementById("quarterly_form").QUARTER_MONTH.value;
+      var month = 0;
+      if(month_name == "January"){      month = 1; }
+      else if(month_name == "February"){  month = 2; }
+      else if(month_name == "March"){     month = 3; }
+      else if(month_name == "April"){     month = 4; }
+      else if(month_name == "May"){       month = 5; }
+      else if(month_name == "June"){      month = 6; }
+      else if(month_name == "July"){      month = 7; }
+      else if(month_name == "August"){    month = 8; }
+      else if(month_name == "September"){ month = 9; }
+      else if(month_name == "October"){   month = 10; }
+      else if(month_name == "November"){  month = 11; }
+      else if(month_name == "December"){  month = 12; }
+
+      var webpageName = "static\\" + year + "\\" + month + "_3_" + year + ".html";
+      document.getElementById('quarterly_form').action = webpageName;
+      return true;}
+    else if (document.getElementById("quarterly_form").QUARTER_YEAR.value == "Year" && document.getElementById("quarterly_form").QUARTER_MONTH.value == "Quarter"){
+      alert("Please select a year and a quarter");
+      return false;
+    }
+    else if (document.getElementById("quarterly_form").QUARTER_YEAR.value == "Year"){
+      alert("Please select a year");
+      return false;
+    }
+    else {
+      alert("Please select a quarter");
+      return false;
+    } 
+  }
+
+  function category() {
+    alert("For future programming");
+  }
+
+  </script>
+
+  <div id="wrapper">
+  <body>
+
+  <table><tr>
+
+  <td>&nbsp; &nbsp; Testing: &nbsp;</td>
+
+  <td><form action="./2020/01-03_2020.html" target=bottomright> &nbsp; &nbsp; <input type="submit" value="01-03"></form></td>
+
+  <td><form action="./2020/01-03_2020_full.html" target=bottomright> &nbsp; &nbsp; <input type="submit" value="01-03_full"></form></td>
+
+
+
+
+	<td><form id="categoryForm" method="post" action="./blank.html" target=bottomright onSubmit="return category()">
+
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Type:
+
+        <select>
+          <option>All</option>    <option>School</option>    <option>Work</option>   <option>Personal</option>   <option>Family</option>
+        </select>
+
+	<input type="submit" value="Future"></form></td>
+
+
+
+
+	<td><form id="monthly_form" method=post target="bottomright" onSubmit="return generateMonthly()">
+
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Monthly:
+
+        <select name="MONTH">     <option>Month</option>
+      	  <option>January</option>    <option>February</option>   <option>March</option>
+          <option>April</option>      <option>May</option>        <option>June</option>
+          <option>July</option>       <option>August</option>     <option>September</option>
+          <option>October</option>    <option>November</option>   <option>December</option>
+        </select>
+         <select name="MONTH_YEAR">     <option>Year</option>
+          <option>1601</option><option>1700</option><option>1800</option><option>1900</option><option>2000</option>
+          <option>2019</option><option>2020</option><option>2021</option>
+          <option>2100</option><option>2200</option><option>2300</option><option>2400</option><option>2500</option>
+        </select>
+<!--         <select name="YEAR">     <option>Year</option>
+          <option>1601</option><option>1700</option><option>1800</option><option>1900</option><option>2000</option>
+          <option>2019</option><option>2020</option><option>2021</option>
+          <option>2100</option><option>2200</option><option>2300</option><option>2400</option><option>2500</option>
+        </select>
+ -->
+	<input type="submit" value="Submit"></form></td>
+
+
+	</tr></table>
+
+
+<table><tr>
+
+<td><form action="color_code.html" target=bottomright> &nbsp; &nbsp; <input type="submit" value="Colors"></form></td>
+
+<td><form action="./2020/04-06_2020.html" target=bottomright> &nbsp; &nbsp; <input type="submit" value="04-06"></form></td>
+
+<td><form action="./2020/04-06_2020_full.html" target=bottomright> &nbsp; &nbsp; <input type="submit" value="04-06_full"></form></td>
+
+
+
+
+
+	<td><form id="yearly_form" method=post target="bottomright" onSubmit="return generateYearly()">
+
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Yearly:
+
+        <select name="YEAR">     <option>Year</option>
+          <option>1601</option><option>1700</option><option>1800</option><option>1900</option><option>2000</option>
+          <option>2019</option><option>2020</option><option>2021</option>
+          <option>2100</option><option>2200</option><option>2300</option><option>2400</option><option>2500</option>
+        </select>
+
+	<input type="submit" value="Submit"></form></td>
+
+
+
+	<td><form id="quarterly_form" method=post target="bottomright" onSubmit="return generateQuarterly()">
+
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Quarterly:
+
+        <select name="QUARTER_MONTH">   <option>Quarter</option>
+      	  <option>January</option>   <option>April</option>   <option>July</option>   <option>October</option>
+        </select>
+        <select name="QUARTER_YEAR">     <option>Year</option>
+          <option>1601</option><option>1700</option><option>1800</option><option>1900</option><option>2000</option>
+          <option>2019</option><option>2020</option><option>2021</option>
+          <option>2100</option><option>2200</option><option>2300</option><option>2400</option><option>2500</option>
+        </select>
+
+	<input type="submit" value="Submit"></form></td>
+
+	</tr></table>
+
+
+
+<table><td class="weekdays">Sunday</td> <td class="weekdays">Monday</td> <td class="weekdays">Tuesday</td> <td class="weekdays">Wednesday</td> <td class="weekdays">Thursday</td> <td class="weekdays">Friday</td> <td class="weekdays">Saturday</td></table>
+
+</body>
+</div>
+</html>

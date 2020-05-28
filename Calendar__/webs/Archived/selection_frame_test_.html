@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="style.css"></head>
+
+<script languge="JavaScript">
+<!--
+function checkForm() {
+        alert(document.forms[0].Occupation.value);
+        if (document.forms[0].NAME.value != ""  &&  document.forms[0].EMAIL.value != ""  &&  document.forms[0].MESSAGE.value!=""){
+
+                var test = document.forms[0].TEST_NAME.value + document.forms[0].TEST_EXT.value;
+                alert(test);
+		            document.getElementById('test_form').action = test;
+                return true;}
+
+        else if (document.forms[0].NAME.value != ""){
+
+                var test = document.forms[0].TEST_NAME.value + "_ELSE-IF_" + document.forms[0].TEST_EXT.value;
+                alert(test);
+                return false;}
+
+        var test = document.forms[0].TEST_NAME.value + document.forms[0].TEST_EXT.value;
+        alert(test);
+
+        alert("Please complete the name, email, and comments fields.");
+        return false;
+}
+
+
+function checkFormed() {
+        // if (document.getElementById("Occupation_test_form").elements.namedItem("Occupation_test").value == "Work"){
+
+        //         var test = document.forms[0].Occupation.value;
+        //         alert("All" + test);
+        //         return false;}
+
+        // else if (document.getElementById("Occupation_test_form").elements.namedItem("Occupation_test").value == "School"){
+
+        //         var test = document.getElementById("Occupation_test_form").elements.namedItem("Occupation_test").value;
+        //         alert("School" + test);
+        //         return false;}
+
+        var test = document.getElementById("Occupation_test_form").elements.namedItem("Occupation_test").value;
+        alert(test);
+        return false;
+}
+
+
+function checkForms() {
+        if (document.forms[0].Occupation.value != "All"  &&  document.forms[0].TEST_NAME.value != ""  &&  document.forms[0].TEST_EXT.value!=""){
+
+                var test = document.forms[0].TEST_NAME.value + document.forms[0].TEST_EXT.value;
+                alert(test);
+		document.getElementById('test_form').action = test;
+                return true;}
+
+        else if (document.forms[0].Occupation.value == "All"){
+
+                var test = document.forms[0].TEST_NAME.value + "_ELSE-IF_" + document.forms[0].TEST_EXT.value;
+                alert(test);
+                return false;}
+
+        var test = document.forms[0].TEST_NAME.value + document.forms[0].TEST_EXT.value;
+        alert(test);
+
+        alert("Please complete the name, email, and comments fields.");
+        return false;
+}
+
+// -->
+</script>
+
+
+
+<div id="wrapper">
+<body>
+
+
+
+<form id="test_form" name="fform" method=post action='test' onSubmit="return checkForm()">
+
+<INPUT TYPE=HIDDEN NAME=TEST_NAME VALUE=./2020/01-03_2020_full>
+<INPUT TYPE=HIDDEN NAME=TEST_EXT VALUE=.html>
+
+<table width=50% align=center>
+
+<tr><td align=right><font size=+1>Name:</font></td>
+    <td><input type=text size=35 maxlength=35 name=NAME></td></tr>
+
+<tr><td align=right><font size=+1>Name:</font></td>
+        <td><select name="Occupation" id="Occupation">
+          <option value="All">All</option>    <option value="School">School</option>    <option value="Work">Work</option>   <option value="Personal">Personal</option>   <option value="Family">Family</option>
+        </select></td></tr>
+
+<tr><td align=right><font size=+1>Email Address:</font></td>
+    <td><input type=text size=35 maxlength=35 name=EMAIL></td></tr>
+
+<tr><td align=right><font size=+1>Comments:</font></td>
+    <td><textarea rows=1 cols=35  wrap=soft name=MESSAGE></textarea></td></tr>
+
+</table>
+
+<BR>
+
+<center><input type=submit value="Submit">   <input type=reset value="Start Over"></center>
+</form>
+
+<BR><BR>
+
+<table><tr>
+
+<td>&nbsp; &nbsp; Testing: &nbsp;</td>
+
+<td><form action="./2020/01-03_2020.html" target=bottomright> &nbsp; &nbsp; <input type="submit" value="01-03"></form></td>
+
+<td><form action="./2020/01-03_2020_full.html" target=bottomright> &nbsp; &nbsp; <input type="submit" value="01-03_full"></form></td>
+
+
+	<td><form id="Occupation_test_form" name="fform" method=post action='test' onSubmit="return checkFormed()" target=bottomright>
+
+	<INPUT TYPE=HIDDEN NAME=TEST_NAME VALUE=./2020/01-03_2020_full>
+	<INPUT TYPE=HIDDEN NAME=TEST_EXT VALUE=.html>
+
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Type:
+
+        <select name="Occupation_test">
+          <option value="All">All</option>    <option value="School">School</option>    <option value="Work">Work</option>   <option value="Personal">Personal</option>   <option value="Family">Family</option>
+        </select>
+
+	<input type="submit" value="Future"></form></td>
+
+
+
+
+
+	<td><form action="./2020/04-06_2020_full.html" target=bottomright>
+
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Monthly:
+
+        </select>
+        <select>     <option>Month</option>
+	  <option>January</option>    <option>February</option>   <option>March</option>
+          <option>April</option>      <option>May</option>        <option>June</option>
+          <option>July</option>       <option>August</option>     <option>September</option>
+          <option>October</option>    <option>November</option>   <option>December</option>
+        </select>
+        <select>     <option>Year</option>
+          <option>1601</option><option>1700</option><option>1800</option><option>1900</option><option>2000</option>
+          <option>2019</option><option>2020</option><option>2021</option>
+          <option>2100</option><option>2200</option><option>2300</option><option>2400</option><option>2500</option>
+        </select>
+
+	<input type="submit" value="Submit"></form></td>
+
+	</tr></table>
+
+
+
+<table><td class="weekdays">Sunday</td> <td class="weekdays">Monday</td> <td class="weekdays">Tuesday</td> <td class="weekdays">Wednesday</td> <td class="weekdays">Thursday</td> <td class="weekdays">Friday</td> <td class="weekdays">Saturday</td></table>
+
+</body>
+</div>
+</html>

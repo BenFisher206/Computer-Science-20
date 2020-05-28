@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+}
+
+select {
+    padding: 5px 10px;
+    width:95px;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width: 1000px;
+}
+
+tr, td {
+    vertical-align: top;
+    text-align: left;
+}
+
+#main {
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+.days, .daysGrey, .daysBlue, .daysYellow, .daysRed, .daysGreen, .daysBrightBlue, .daysBrightYellow, .daysBrightGreen, .daysBrightRed {
+    border: 2px solid black;
+    font-weight: bold;
+    width: 150px;
+    height: 150px;
+}
+
+.weekdays {
+    width: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.daysGrey { background-color: rgb(210 , 210, 210); }
+.daysBlue { background-color: rgb(223, 236, 252); }
+.daysYellow { background-color: rgb(255, 255, 210); }
+.daysRed { background-color: rgb(252, 223, 223); }
+.daysGreen { background-color: rgb(232, 255, 233); }
+
+.daysBrightBlue { background-color: rgb(0, 0, 255); }
+.daysBrightYellow { background-color: rgb(255, 255, 0); }
+.daysBrightRed { background-color: rgb(255, 0, 0); }
+.daysBrightGreen { background-color: rgb(0, 255, 0); }
+
+.fontBlue { color: blue; }
+.fontGrey { color: rgb(143, 142, 142); }
+.fontRed { color: red; }
+.fontGreen { color: rgb(2, 141, 2); }
+
+.topfontBlue { color: blue; }
+.topfontGrey { color: rgb(179, 179, 179); }
+.topfontRed { color: red; }
+.topfontGreen { color: rgb(2, 141, 2); }
+
+.highlightGrey { background-color: lightGrey; width:140px; }
+.highlightRed { background-color: rgb(253, 184, 184); width:140px; }
+.highlightBlue { background-color: lightblue; width:140px; }
+.highlightGreen { background-color: rgb(168, 255, 168); width:140px; }
+
+.nmbs {
+    font-size:30px;
+    padding-left: 2px;
+}
+
+.top_description {
+    font-size: 12px;
+}
+
+.details {
+    font-size: 15px;
+}
+
+.smallFont {
+    font-size: 10px;
+}
